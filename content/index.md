@@ -1,25 +1,28 @@
 ---
-title: "Min fina titel"
+title: "Erik Hansson"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta: 
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?h=450" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+ Jag heter Erik Hansson. Kommer från ett toppenställe vid namn Silpinge som ligger mellan Bräkne-Hoby och Backaryd.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Tränade fotboll ett tag när jag var en liten knatte och innebandy runt 7:an men har väl mest varit aktiv på datorn under nästan hela livet. Farsan introducerade mig till datorns värld när jag var 6 år gammal då han gav mig en dator och pirate-bay:ade Counter-Strike: 1.6 åt mig och min storebror.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Till att börja med så spelade vi både med varandra mot bottar och ibland även mot varandra. Detta fortsatte i cirka ett år tills pappa tyckte att jag och brorsan blev för bra för honom så han kopplade upp våra datorer till internet och köpte Counter-Strike: Source till oss och ända sedan dess har jag suttit fast i datorspel.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Mycket mer än så vet jag inte vad jag kan hitta på. Favoritpajen är björnbärspaj, favoritsaften hallon och favoritväxten kaktus. 
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Erik

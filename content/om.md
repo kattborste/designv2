@@ -21,8 +21,6 @@ Om
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+I denna kursen ska jag lära mig hur man designar en hemsida från att se ut som bilden till att se i alla fall lite vettig ut.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/bra_design.jpg?w=300 caption="Ungefär hur mina nuvarande sidor är designade"]

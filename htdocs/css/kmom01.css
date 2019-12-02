@@ -13,4 +13,63 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+
+}
+
+main {
+    margin: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.author-byline {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.author-byline::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figure.figure.left {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.wrap-all {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+}
+
+.site-logo {
+    display: none;
+}
+
+.rm-navbar {
+    overflow: auto;
+}
+
+.rm-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rm-navbar ul li {
+    float: left;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.footer-column {
+    width: 33%;
+    min-width: 180px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
 }
