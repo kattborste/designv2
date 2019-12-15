@@ -1,0 +1,104 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+.inner-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+}
+
+.author-byline {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.author-byline::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figure.figure.left {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.site-logo {
+    display: none;
+}
+
+
+/**
+ * Main and sidebars layout
+ */
+
+.inner-wrap-main {
+    .clearfix();
+}
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    overflow: auto;
+}
+
+
+
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+
+
+/**
+ * Footer layout
+ */
+ .footer-column {
+    width: 33%;
+    min-width: 180px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+.site-footer {
+    background-color: darkgray;
+    text-align: center;
+    font-weight: bold;
+}
